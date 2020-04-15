@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    background-image: url('./images/Layer\ 6.png');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+
+    h4 {
+        color: white;
+        margin-top: 3%;
+        margin-left: 10%;
+        font-size: 1300%;
+
+        span {
+            color: yellow;
+        }
+    }
+
+    h5 {
+        color: white;
+        margin-left: 30%;
+    }
+
+    a {
+        color: yellow;
+        text-decoration: none;
+        margin-left: 10%;
+    }
+}
