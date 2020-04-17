@@ -22,12 +22,17 @@ body {
 }
 #header h5 {
   color: white;
-  margin-left: 30%;
+  margin-left: 10%;
+  width: 30%;
 }
-#header a {
-  color: yellow;
+#header h3 {
+  margin-left: 10%;
   text-decoration: none;
-  margin-left: 11%;
+  margin-top: 3%;
+  font-size: 120%;
+}
+#header h3 a {
+  color: yellow;
 }
 #header #menu {
   background: url("./images/Layer 5.png");
@@ -35,25 +40,26 @@ body {
   width: 85%;
   height: 100%;
   margin-left: 9%;
-  margin-top: 8%;
-  padding: 1%;
+  margin-top: 5%;
+  padding: 2.3%;
 }
 #header #menu h4 {
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 2%;
   font-size: 400%;
 }
 #header #menu h5 {
   margin-left: 2%;
-  margin-top: 0%;
-  font-size: 350%;
+  font-size: 295%;
+  color: white;
 }
 #header #menu nav {
   margin-top: 3%;
 }
-#header #menu nav a {
+#header #menu nav .nav-link {
   margin-left: 1%;
   font-size: 100%;
+  color: yellow;
 }
 #header #menu #line {
   margin-top: 25%;

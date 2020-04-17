@@ -24,13 +24,19 @@ body {
 
     h5 {
         color: white;
-        margin-left: 30%;
+        margin-left: 10%;
+        width: 30%;
     }
 
-    a {
-        color: yellow;
+    h3 {
+        margin-left: 10%;
         text-decoration: none;
-        margin-left: 11%;
+        margin-top: 3%;
+        font-size: 120%;
+
+        a {
+            color: yellow;
+        }
     }
 
     #menu {
@@ -39,27 +45,28 @@ body {
         width: 85%;
         height: 100%;
         margin-left: 9%;
-        margin-top: 8%;
-        padding: 1%;
+        margin-top: 5%;
+        padding: 2.3%;
 
         h4 {
-            margin-top: 5%;
+            margin-top: 2%;
             margin-left: 2%;
             font-size: 400%;
         }
 
         h5 {
             margin-left: 2%;
-            margin-top: 0%;
-            font-size: 350%;
+            font-size: 295%;
+            color: white;
         }
 
         nav {
             margin-top: 3%;
 
-            a {
+            .nav-link {
                 margin-left: 1%;
                 font-size: 100%;
+                color: yellow;
             }
         }
 
