@@ -65,4 +65,57 @@ body {
   margin-top: 25%;
 }
 
+#aboutass {
+  width: 100%;
+  height: 100%;
+}
+#aboutass #text {
+  margin-left: 14%;
+  margin-top: 8%;
+}
+#aboutass #text h3 {
+  color: gray;
+  font-size: 270%;
+}
+#aboutass #text h3 span {
+  text-transform: uppercase;
+}
+#aboutass #text h4 {
+  font-size: 500%;
+}
+#aboutass #text h4 span {
+  text-transform: uppercase;
+  color: yellow;
+}
+#aboutass #text_2 {
+  width: 50%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+#aboutass #text_2 h3 {
+  font-size: 110%;
+}
+#aboutass #text_2 h4 {
+  font-size: 105%;
+  margin-top: 5%;
+}
+
+#card {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+#card .card {
+  margin-left: 2%;
+  width: 30%;
+  border: 0px;
+}
+#card .card .card-img-top {
+  width: 20%;
+  height: auto;
+  margin-left: 40%;
+}
+
 /*# sourceMappingURL=style.css.map */
