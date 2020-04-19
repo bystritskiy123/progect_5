@@ -164,7 +164,7 @@ body {
   text-transform: uppercase;
   font-size: 150%;
 }
-#strategy .row h4 #one {
+#strategy .row h4 .one {
   color: yellow;
 }
 #strategy #text h3 {
@@ -194,6 +194,50 @@ body {
 #strategy #cards .card-img {
   width: 150%;
   height: auto;
+}
+
+#SericesProvided {
+  background: url("./images/Layer 26.png");
+  background-size: 100%;
+  margin-top: 8%;
+  padding: 3.8%;
+}
+#SericesProvided #main #text {
+  width: 40%;
+  height: 100%;
+  margin-top: -1%;
+  margin-left: -1%;
+}
+#SericesProvided #main #text .one {
+  color: yellow;
+  text-transform: uppercase;
+}
+#SericesProvided #main #text span {
+  text-transform: uppercase;
+  font-size: 150%;
+}
+#SericesProvided #main #text h4 {
+  margin-left: 1%;
+  font-size: 270%;
+  color: white;
+}
+#SericesProvided #main #text_card {
+  width: 60%;
+  height: 100%;
+  margin-top: 6%;
+}
+#SericesProvided #main #text_card #card_2 {
+  margin-top: 5%;
+}
+#SericesProvided #main .card {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  margin-left: 2%;
+  border: 0px;
+}
+#SericesProvided #main .card .card-text {
+  margin-top: 10%;
+  font-size: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */

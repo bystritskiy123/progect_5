@@ -198,7 +198,7 @@ body {
                 font-size: 150%;
             }
 
-            #one {
+            .one {
                 color: yellow;
             }
         }
@@ -242,4 +242,61 @@ body {
             height: auto;
         }
     }
+}
+
+
+#SericesProvided {
+    background: url('./images/Layer\ 26.png');
+    background-size: 100%;
+    margin-top: 8%;
+    padding: 3.8%;
+
+    #main {
+        #text {
+            width: 40%;
+            height: 100%;
+            margin-top: -1%;
+            margin-left: -1%;
+
+            .one {
+                color: yellow;
+                text-transform: uppercase;
+            }
+
+            span {
+                text-transform: uppercase;
+                font-size: 150%;
+            }
+
+            h4 {
+                margin-left: 1%;
+                font-size: 270%;
+                color: white;
+            }
+        }
+
+        #text_card {
+            width: 60%;
+            height: 100%;
+            margin-top: 6%;
+
+            #card_2 {
+                margin-top: 5%;
+            }
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            margin-left: 2%;
+            border: 0px;
+
+            .card-text {
+                margin-top: 10%;
+                font-size: 80%;
+            }
+        }
+    }
+
+
 }
