@@ -118,4 +118,36 @@ body {
   margin-left: 40%;
 }
 
+#FeaturedWork {
+  margin-top: 10%;
+}
+#FeaturedWork #text {
+  margin-left: 5%;
+}
+#FeaturedWork #text h4 {
+  margin-left: 1%;
+  font-size: 300%;
+}
+#FeaturedWork #text h4 span {
+  text-transform: uppercase;
+  font-size: 150%;
+}
+#FeaturedWork #text h4 #one {
+  color: yellow;
+}
+#FeaturedWork nav {
+  margin-left: 5%;
+  margin-top: 1%;
+  text-transform: uppercase;
+}
+#FeaturedWork nav .nav-link {
+  color: black;
+}
+#FeaturedWork #images {
+  margin-top: 2%;
+}
+#FeaturedWork #images .row img {
+  width: 25%;
+}
+
 /*# sourceMappingURL=style.css.map */

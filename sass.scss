@@ -139,3 +139,45 @@ body {
         }
     }
 }
+
+#FeaturedWork {
+    margin-top: 10%;
+
+    #text {
+        margin-left: 5%;
+
+        h4 {
+            margin-left: 1%;
+            font-size: 300%;
+
+            span {
+                text-transform: uppercase;
+                font-size: 150%;
+            }
+
+            #one {
+                color: yellow;
+            }
+        }
+    }
+
+    nav {
+        margin-left: 5%;
+        margin-top: 1%;
+        text-transform: uppercase;
+
+        .nav-link {
+            color: black;
+        }
+    }
+
+    #images {
+        margin-top: 2%;
+
+        .row {
+            img {
+                width: 25%;
+            }
+        }
+    }
+}
