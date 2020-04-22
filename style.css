@@ -328,4 +328,44 @@ body {
   margin-left: 25%;
 }
 
+#blogs {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+}
+#blogs .row #menu {
+  width: 30%;
+  height: auto;
+}
+#blogs .row #menu h4 {
+  font-size: 230%;
+  margin-left: 14%;
+  margin-top: 10%;
+}
+#blogs .row #menu h4 span {
+  text-transform: uppercase;
+  font-size: 180%;
+  color: yellow;
+}
+#blogs .row #menu nav {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+#blogs .row #menu nav a {
+  color: black;
+  font-size: 130%;
+}
+#blogs .row #menu nav .one {
+  color: yellow;
+}
+#blogs .row #cardt {
+  width: 70%;
+  height: auto;
+  margin-top: 3%;
+}
+#blogs .row #cardt .card {
+  margin-left: 5%;
+  border: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */

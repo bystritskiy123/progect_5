@@ -414,3 +414,55 @@ body {
         }
     }
 }
+
+
+#blogs {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+
+    .row {
+        #menu {
+            width: 30%;
+            height: auto;
+
+            h4 {
+                font-size: 230%;
+                margin-left: 14%;
+                margin-top: 10%;
+
+                span {
+                    text-transform: uppercase;
+                    font-size: 180%;
+                    color: yellow;
+                }
+            }
+
+
+            nav {
+                margin-left: 30%;
+                margin-top: 5%;
+
+                a {
+                    color: black;
+                    font-size: 130%;
+                }
+
+                .one {
+                    color: yellow;
+                }
+            }
+        }
+
+        #cardt {
+            width: 70%;
+            height: auto;
+            margin-top: 3%;
+
+            .card {
+                margin-left: 5%;
+                border: 0px;
+            }
+        }
+    }
+}
