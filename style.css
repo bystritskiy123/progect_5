@@ -278,4 +278,54 @@ body {
   border: 0px;
 }
 
+#Testimonials {
+  margin-top: 5%;
+  background: black;
+  background-size: 100%;
+}
+#Testimonials .row #part_1 {
+  width: 70%;
+  height: auto;
+}
+#Testimonials .row #part_1 h4 {
+  margin-left: 7%;
+  font-size: 250%;
+  color: white;
+}
+#Testimonials .row #part_1 h4 span {
+  text-transform: uppercase;
+  font-size: 180%;
+  color: yellow;
+}
+#Testimonials .row #part_1 h5 {
+  margin-left: 13%;
+  margin-top: 10%;
+  color: white;
+}
+#Testimonials .row #part_1 h6 {
+  margin-left: 13%;
+  margin-top: 3%;
+  width: 75%;
+  color: white;
+}
+#Testimonials .row #part_2 .card {
+  margin-top: 45%;
+  margin-left: 20%;
+  border: 0px;
+  background: black;
+}
+#Testimonials .row #part_2 .card .card-img-top {
+  width: 50%;
+  margin-left: 25%;
+}
+#Testimonials .row #part_2 .card .card-body {
+  color: white;
+}
+#Testimonials .row #part_2 .card .card-body .one {
+  margin-left: 38%;
+}
+#Testimonials .row #part_2 .card .card-body .too {
+  margin-left: 25%;
+}
+
 /*# sourceMappingURL=style.css.map */

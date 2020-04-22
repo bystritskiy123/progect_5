@@ -348,3 +348,69 @@ body {
         }
     }
 }
+
+
+#Testimonials {
+    margin-top: 5%;
+    background: black;
+    background-size: 100%;
+
+    .row {
+        #part_1 {
+            width: 70%;
+            height: auto;
+
+            h4 {
+                margin-left: 7%;
+                font-size: 250%;
+                color: white;
+
+                span {
+                    text-transform: uppercase;
+                    font-size: 180%;
+                    color: yellow;
+                }
+            }
+
+            h5 {
+                margin-left: 13%;
+                margin-top: 10%;
+                color: white;
+            }
+
+            h6 {
+                margin-left: 13%;
+                margin-top: 3%;
+                width: 75%;
+                color: white;
+            }
+        }
+
+
+        #part_2 {
+            .card {
+                margin-top: 45%;
+                margin-left: 20%;
+                border: 0px;
+                background: black;
+
+                .card-img-top {
+                    width: 50%;
+                    margin-left: 25%;
+                }
+
+                .card-body {
+                    color: white;
+
+                    .one {
+                        margin-left: 38%;
+                    }
+
+                    .too {
+                        margin-left: 25%;
+                    }
+                }
+            }
+        }
+    }
+}
