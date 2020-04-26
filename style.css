@@ -368,4 +368,66 @@ body {
   border: 0px;
 }
 
+#contact {
+  margin-top: 5%;
+  background: url("./images/Sublime copy.png");
+  background-size: 80%;
+}
+#contact #forma {
+  background: blue;
+  width: 40%;
+  height: 100%;
+  height: 100%;
+  margin-left: 60%;
+  padding: 1%;
+}
+#contact #forma form {
+  width: 60%;
+  height: 100%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+#contact #forma form .btn {
+  width: 30%;
+  border-radius: 0px 0px 0px 0px;
+  background: yellow;
+  color: black;
+  font-size: 130%;
+  margin-top: 3%;
+}
+#contact #forma h4 {
+  font-size: 300%;
+  margin-top: 7%;
+  margin-left: 10%;
+  color: white;
+}
+#contact #forma h4 span {
+  color: yellow;
+}
+#contact #forma h5 {
+  margin-top: 12%;
+  margin-left: 12%;
+  color: white;
+}
+#contact #forma #text {
+  margin-left: 12%;
+  margin-top: 5%;
+  color: white;
+}
+#contact #forma #text #data {
+  margin-left: 5%;
+}
+#contact #forma #silka {
+  margin-left: 12%;
+  margin-top: 12%;
+}
+#contact #forma #silka a img {
+  width: 3%;
+}
+#contact #forma #silka hr {
+  background: white;
+  width: 70%;
+  margin-right: 30%;
+}
+
 /*# sourceMappingURL=style.css.map */
