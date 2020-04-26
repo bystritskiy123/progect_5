@@ -541,3 +541,87 @@ body {
         }
     }
 }
+
+
+#Layout {
+    margin-top: 10%;
+
+    #part_one {
+        background: black;
+        background-size: 100%;
+        width: 35%;
+        height: auto;
+
+        h4 {
+            color: white;
+            margin-left: 10%;
+            margin-top: 20%;
+            font-size: 350%;
+            font-style: bold;
+
+            span {
+                color: yellow;
+            }
+        }
+
+        nav {
+            margin-left: 7%;
+            margin-top: 10%;
+
+            .nav-link {
+                color: white;
+                width: 31%;
+            }
+
+            .active {
+                color: yellow;
+            }
+        }
+
+        hr {
+            background: yellow;
+            width: 25%;
+            height: auto;
+            margin-right: 65%;
+        }
+
+        #socialnetwork {
+            margin-left: 10%;
+
+            a {
+                img {
+                    width: 4%;
+                }
+            }
+        }
+
+    }
+
+    #part_too {
+        width: 65%;
+        height: auto;
+        background-size: 100%;
+        background-image: url('./images/too.png');
+
+        #other {
+            background-color: rgba(12, 11, 11, 0.671);
+            background-size: 100%;
+            padding: 4%;
+
+            h3 {
+                color: white;
+                margin-top: 35%;
+                font-size: 600%;
+
+                span {
+                    color: yellow;
+                }
+            }
+
+            h4 {
+                color: white;
+                font-size: 620%;
+            }
+        }
+    }
+}
