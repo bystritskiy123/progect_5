@@ -117,3 +117,39 @@
 }
 
 /*aboutass*/
+
+
+/*card*/
+@media (min-width:360px) and (max-width:640px) {
+    #aboutass {
+        #card {
+            .card {
+                width: 100%;
+
+                .card-body {
+                    .card-text {
+                        font-size: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    #aboutass {
+        #card {
+            .card {
+                width: 60%;
+
+                .card-body {
+                    .card-text {
+                        font-size: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*card*/

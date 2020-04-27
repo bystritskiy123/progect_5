@@ -120,23 +120,24 @@ body {
             margin-top: 5%;
         }
     }
-}
 
-#card {
-    width: 100%;
-    height: 100%;
-    margin-top: 10%;
-    margin-left: 3%;
 
-    .card {
-        margin-left: 2%;
-        width: 30%;
-        border: 0px;
+    #card {
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+        margin-left: 3%;
 
-        .card-img-top {
-            width: 20%;
-            height: auto;
-            margin-left: 40%;
+        .card {
+            margin-left: 2%;
+            width: 30%;
+            border: 0px;
+
+            .card-img-top {
+                width: 20%;
+                height: auto;
+                margin-left: 40%;
+            }
         }
     }
 }
