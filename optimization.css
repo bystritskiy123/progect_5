@@ -65,5 +65,12 @@
   }
 }
 /*header*/
+/*aboutass*/
+@media (min-width: 360px) and (max-width: 640px) {
+  #aboutass #text_2 {
+    width: 100%;
+  }
+}
+/*aboutass*/
 
 /*# sourceMappingURL=optimization.css.map */
