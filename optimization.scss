@@ -153,3 +153,22 @@
 }
 
 /*card*/
+
+
+/*FeaturedWork*/
+@media(min-width:360px) and (max-width:640px) {
+    #FeaturedWork {
+        #text {
+            font-size: 69%;
+            margin-left: 7%;
+        }
+
+        nav {
+            .nav-link {
+                font-size: 43%;
+            }
+        }
+    }
+}
+
+/*FeaturedWork*/
