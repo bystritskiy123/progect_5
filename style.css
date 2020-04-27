@@ -433,65 +433,65 @@ body {
 #Layout {
   margin-top: 10%;
 }
-#Layout #part_one {
+#Layout .row #part_one {
   background: black;
   background-size: 100%;
   width: 35%;
   height: auto;
 }
-#Layout #part_one h4 {
+#Layout .row #part_one h4 {
   color: white;
   margin-left: 10%;
   margin-top: 20%;
   font-size: 350%;
   font-style: bold;
 }
-#Layout #part_one h4 span {
+#Layout .row #part_one h4 span {
   color: yellow;
 }
-#Layout #part_one nav {
+#Layout .row #part_one nav {
   margin-left: 7%;
   margin-top: 10%;
 }
-#Layout #part_one nav .nav-link {
+#Layout .row #part_one nav .nav-link {
   color: white;
   width: 31%;
 }
-#Layout #part_one nav .active {
+#Layout .row #part_one nav .active {
   color: yellow;
 }
-#Layout #part_one hr {
+#Layout .row #part_one hr {
   background: yellow;
   width: 25%;
   height: auto;
   margin-right: 65%;
 }
-#Layout #part_one #socialnetwork {
+#Layout .row #part_one #socialnetwork {
   margin-left: 10%;
 }
-#Layout #part_one #socialnetwork a img {
+#Layout .row #part_one #socialnetwork a img {
   width: 4%;
 }
-#Layout #part_too {
+#Layout .row #part_too {
   width: 65%;
-  height: auto;
+  height: 100%;
   background-size: 100%;
   background-image: url("./images/too.png");
 }
-#Layout #part_too #other {
+#Layout .row #part_too #other {
   background-color: rgba(12, 11, 11, 0.671);
   background-size: 100%;
   padding: 4%;
 }
-#Layout #part_too #other h3 {
+#Layout .row #part_too #other h3 {
   color: white;
   margin-top: 35%;
   font-size: 600%;
 }
-#Layout #part_too #other h3 span {
+#Layout .row #part_too #other h3 span {
   color: yellow;
 }
-#Layout #part_too #other h4 {
+#Layout .row #part_too #other h4 {
   color: white;
   font-size: 620%;
 }
