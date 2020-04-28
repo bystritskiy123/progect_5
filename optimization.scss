@@ -468,3 +468,64 @@
 }
 
 /*blogs*/
+
+
+
+/*contact*/
+@media (min-width:360px) and (max-width:640px) {
+    #contact {
+        background-size: cover;
+
+        #forma {
+            width: 100%;
+            margin-left: 0%;
+
+            form {
+                width: 80%;
+            }
+
+            #text {
+
+                #data {
+                    h6 {
+                        font-size: 95%;
+                    }
+                }
+            }
+
+            #silka {
+
+                a {
+                    img {
+                        width: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    #contact {
+        background-size: cover;
+
+        #forma {
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
+}
+
+
+@media (min-width:1024px) and (max-width:1366px) {
+    #contact {
+        background-size: cover;
+
+        #forma {
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
+}
+
+/*contact*/
