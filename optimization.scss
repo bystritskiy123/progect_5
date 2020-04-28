@@ -373,3 +373,50 @@
 }
 
 /*team*/
+
+/*Testimonials*/
+@media(min-width:360px) and (max-width:640px) {
+    #Testimonials {
+        .row {
+            #part_1 {
+                width: 100%;
+
+                h4 {
+                    font-size: 200%;
+                    margin-left: 25%;
+                }
+            }
+
+            #part_2 {
+                .card {
+                    margin-left: 10%;
+                    margin-top: 20%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    #Testimonials {
+        .row {
+            #part_1 {
+                width: 100%;
+
+                h4 {
+                    font-size: 200%;
+                    margin-left: 25%;
+                }
+            }
+
+            #part_2 {
+                .card {
+                    margin-left: 50%;
+                    margin-top: 20%;
+                }
+            }
+        }
+    }
+}
+
+/*Testimonials*/
