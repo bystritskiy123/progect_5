@@ -420,3 +420,51 @@
 }
 
 /*Testimonials*/
+
+
+
+/*blogs*/
+@media (min-width:360px) and (max-width:640px) {
+    #blogs {
+        .row {
+
+
+            #menu {
+
+                h4 {
+                    font-size: 150%;
+                }
+
+                nav {
+                    a {
+                        font-size: 90%;
+                    }
+                }
+            }
+
+            #cardt {
+                width: 70%;
+
+                .card {
+                    margin-left: 50%;
+
+                    .card-img-top {
+                        width: 100%;
+                    }
+
+                    .card-body {
+                        .card-title {
+                            font-size: 75%;
+                        }
+
+                        .card-text {
+                            font-size: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*blogs*/

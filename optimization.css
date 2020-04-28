@@ -250,5 +250,30 @@
   }
 }
 /*Testimonials*/
+/*blogs*/
+@media (min-width: 360px) and (max-width: 640px) {
+  #blogs .row #menu h4 {
+    font-size: 150%;
+  }
+  #blogs .row #menu nav a {
+    font-size: 90%;
+  }
+  #blogs .row #cardt {
+    width: 70%;
+  }
+  #blogs .row #cardt .card {
+    margin-left: 50%;
+  }
+  #blogs .row #cardt .card .card-img-top {
+    width: 100%;
+  }
+  #blogs .row #cardt .card .card-body .card-title {
+    font-size: 75%;
+  }
+  #blogs .row #cardt .card .card-body .card-text {
+    font-size: 70%;
+  }
+}
+/*blogs*/
 
 /*# sourceMappingURL=optimization.css.map */
