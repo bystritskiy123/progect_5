@@ -171,5 +171,56 @@
   }
 }
 /*SericesProvided*/
+/*team*/
+@media (min-width: 360px) and (max-width: 640px) {
+  #team .row h4 {
+    font-size: 250%;
+    margin-left: 20%;
+  }
+  #team .row #our {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 8%;
+  }
+  #team .row #our h4 {
+    font-size: 100%;
+  }
+  #team .row #our h5 {
+    font-size: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  #team .row #our #our_team .card {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #team .row h4 {
+    font-size: 400%;
+    margin-left: 20%;
+  }
+  #team .row #our {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 8%;
+  }
+  #team .row #our h4 {
+    font-size: 150%;
+  }
+  #team .row #our h5 {
+    font-size: 150%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  #team .row #our #our_team .card {
+    width: 100%;
+  }
+  #team .row #our #our_team .card .card-body .card-text {
+    font-size: 150%;
+  }
+}
+/*team*/
 
 /*# sourceMappingURL=optimization.css.map */
