@@ -242,3 +242,56 @@
 }
 
 /*strategy*/
+
+
+/*SericesProvided*/
+@media (min-width:360px) and (max-width:640px) {
+    #SericesProvided {
+        background-size: cover;
+
+        #main {
+            #text {
+                h4 {
+                    font-size: 90%;
+                }
+            }
+
+            #text_card {
+                width: 65%;
+
+                .card {
+
+                    .card-title {
+                        font-size: 60%;
+                    }
+
+                    .card-text {
+                        font-size: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    #SericesProvided {
+        background-size: cover;
+
+        #main {
+            #text {
+                h4 {
+                    font-size: 200%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1024px) and (max-width:1366px) {
+    #SericesProvided {
+        background-size: cover;
+    }
+}
+
+/*SericesProvided*/
