@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('./fonts/MyriadProBold/MyriadProBold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'MyriadProSemiBold';
+    src: url('./fonts/MyriadProSemiBold/MyriadProSemiBold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('./fonts/MyriadProRegular/MyriadProRegular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'MyriadProItalic';
+    src: url('./fonts/MyriadProItalic/MyriadProItalic.ttf') format("truetype");
+}
+
+
+
 body {
     width: 100%;
     height: 100%;
@@ -16,6 +38,7 @@ body {
         margin-top: 3%;
         margin-left: 10%;
         font-size: 1300%;
+        font-family: "MyriadProBold";
 
         span {
             color: yellow;
@@ -27,6 +50,7 @@ body {
         color: white;
         margin-left: 10%;
         width: 30%;
+        font-family: "MyriadProRegular";
     }
 
     h3 {
@@ -34,6 +58,7 @@ body {
         text-decoration: none;
         margin-top: 3%;
         font-size: 120%;
+        font-family: "MyriadProRegular";
 
         a {
             color: yellow;
@@ -53,11 +78,13 @@ body {
             margin-top: 2%;
             margin-left: 2%;
             font-size: 400%;
+            font-family: "MyriadProBold";
         }
 
         h5 {
             margin-left: 2%;
             font-size: 295%;
+            font-family: "MyriadProBold";
             color: white;
         }
 
@@ -67,6 +94,7 @@ body {
             .nav-link {
                 margin-left: 1%;
                 font-size: 100%;
+                font-family: "MyriadProRegular";
                 color: yellow;
             }
         }
@@ -89,6 +117,7 @@ body {
         h3 {
             color: gray;
             font-size: 270%;
+            font-family: "MyriadProRegular";
 
             span {
                 text-transform: uppercase;
@@ -97,6 +126,7 @@ body {
 
         h4 {
             font-size: 500%;
+            font-family: "MyriadProRegular";
 
             span {
                 text-transform: uppercase;
@@ -113,10 +143,12 @@ body {
 
         h3 {
             font-size: 110%;
+            font-family: "MyriadProItalic";
         }
 
         h4 {
             font-size: 105%;
+            font-family: "MyriadProItalic";
             margin-top: 5%;
         }
     }
@@ -132,6 +164,7 @@ body {
             margin-left: 2%;
             width: 30%;
             border: 0px;
+            font-family: "MyriadProRegular";
 
             .card-img-top {
                 width: 20%;
@@ -151,6 +184,7 @@ body {
         h4 {
             margin-left: 1%;
             font-size: 300%;
+            font-family: "MyriadProSemiBold";
 
             span {
                 text-transform: uppercase;
@@ -170,6 +204,7 @@ body {
 
         .nav-link {
             color: black;
+            font-family: "MyriadProSemiBold";
         }
     }
 
@@ -194,6 +229,7 @@ body {
         h4 {
             margin-left: 1%;
             font-size: 300%;
+            font-family: "MyriadProSemiBold";
 
             span {
                 text-transform: uppercase;
@@ -209,11 +245,13 @@ body {
     #text {
         h3 {
             font-size: 125%;
+            font-family: "MyriadProSemiBold";
             margin-top: 2%;
         }
 
         h4 {
             font-size: 118%;
+            font-family: "MyriadProSemiBold";
             margin-top: 2%;
         }
     }
@@ -236,6 +274,7 @@ body {
 
         .card-body {
             font-size: 100%;
+            font-family: "MyriadProSemiBold";
             margin-left: 25%;
         }
 
@@ -273,6 +312,7 @@ body {
             h4 {
                 margin-left: 1%;
                 font-size: 270%;
+                font-family: "MyriadProRegular";
                 color: white;
             }
         }
@@ -292,10 +332,12 @@ body {
             color: white;
             margin-left: 2%;
             border: 0px;
+            font-family: "MyriadProRegular";
 
             .card-text {
                 margin-top: 10%;
                 font-size: 80%;
+                font-family: "MyriadProRegular";
             }
         }
     }
@@ -308,10 +350,12 @@ body {
             margin-top: 10%;
             margin-left: 5%;
             font-size: 280%;
+            font-family: "MyriadProSemiBold";
 
             span {
                 text-transform: uppercase;
                 font-size: 150%;
+                font-family: "MyriadProSemiBold";
             }
 
             .one {
@@ -327,12 +371,14 @@ body {
 
             h4 {
                 font-size: 120%;
+                font-family: "MyriadProSemiBold";
             }
 
             h5 {
                 margin-left: 5%;
                 margin-top: 3%;
                 font-size: 105%;
+                font-family: "MyriadProSemiBold";
             }
 
             #our_team {
@@ -344,6 +390,7 @@ body {
                     height: 100%;
                     margin-left: 2%;
                     border: 0px;
+                    font-family: "MyriadProSemiBold";
                 }
             }
         }
@@ -364,11 +411,13 @@ body {
             h4 {
                 margin-left: 7%;
                 font-size: 250%;
+                font-family: "MyriadProSemiBold";
                 color: white;
 
                 span {
                     text-transform: uppercase;
                     font-size: 180%;
+                    font-family: "MyriadProSemiBold";
                     color: yellow;
                 }
             }
@@ -377,6 +426,7 @@ body {
                 margin-left: 13%;
                 margin-top: 10%;
                 color: white;
+                font-family: "MyriadProSemiBold";
             }
 
             h6 {
@@ -384,6 +434,7 @@ body {
                 margin-top: 3%;
                 width: 75%;
                 color: white;
+                font-family: "MyriadProSemiBold";
             }
         }
 
@@ -402,6 +453,7 @@ body {
 
                 .card-body {
                     color: white;
+                    font-family: "MyriadProSemiBold";
 
                     .one {
                         margin-left: 38%;
@@ -429,6 +481,7 @@ body {
 
             h4 {
                 font-size: 230%;
+                font-family: "MyriadProSemiBold";
                 margin-left: 14%;
                 margin-top: 10%;
 
@@ -443,6 +496,7 @@ body {
             nav {
                 margin-left: 30%;
                 margin-top: 5%;
+                font-family: "MyriadProRegular";
 
                 a {
                     color: black;
@@ -463,6 +517,7 @@ body {
             .card {
                 margin-left: 5%;
                 border: 0px;
+                font-family: "MyriadProSemiBold";
             }
         }
     }
@@ -480,6 +535,7 @@ body {
         height: 100%;
         margin-left: 60%;
         padding: 1%;
+        font-family: "MyriadProSemiBold";
 
         form {
             width: 60%;
@@ -560,7 +616,7 @@ body {
                 margin-left: 10%;
                 margin-top: 20%;
                 font-size: 350%;
-                font-style: bold;
+                font-family: "MyriadProBold";
 
                 span {
                     color: yellow;
@@ -574,6 +630,7 @@ body {
                 .nav-link {
                     color: white;
                     width: 31%;
+                    font-family: "MyriadProSemiBold";
                 }
 
                 .active {
@@ -615,6 +672,7 @@ body {
                     color: white;
                     margin-top: 35%;
                     font-size: 600%;
+                    font-family: "MyriadProBold";
 
                     span {
                         color: yellow;
@@ -624,6 +682,7 @@ body {
                 h4 {
                     color: white;
                     font-size: 620%;
+                    font-family: "MyriadProBold";
                 }
             }
         }
